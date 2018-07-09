@@ -1,5 +1,5 @@
 if(rand_x = 0) {
-	if((prob_z != 10 || sol_text_max = 2) && (prob_z = 10 || sol_text_max = 1)) {
+	if(string_length(global.userans) = sol_text_max && cooldown = 0) {
 		if(string(prob_x) == global.userans) {
 			solve = "Correct!";
 			global.userans = "";
@@ -75,12 +75,13 @@ if(rand_x = 0) {
 					global.curr_spd = global.curr_spd + 0.3;
 				}
 			}
+		global.userans = "";
 		}
 	}
 }
 
 if(rand_x = 1) {
-	if((prob_z != 10 || sol_text_max = 2) && (prob_z = 10 || sol_text_max = 1)) {
+	if(string_length(global.userans) = sol_text_max && cooldown = 0) {
 		if(string(prob_y) == global.userans) {
 			solve = "Correct!";
 			global.userans = "";
@@ -156,6 +157,7 @@ if(rand_x = 1) {
 					global.curr_spd = global.curr_spd + 0.3;
 				}
 			}
+		global.userans = "";
 		}
 	}
 }

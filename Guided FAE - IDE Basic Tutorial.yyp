@@ -258,7 +258,7 @@
             "Key": "6e3e2040-7417-451b-bd75-7f5589dae69f",
             "Value": {
                 "id": "31c023ec-cfac-40f8-bb3d-f7ac749f4244",
-                "resourcePath": "objects\\obj_relic\\obj_relic.yy",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -394,7 +394,7 @@
             "Key": "a555afab-88bf-44fd-a7c5-82456cbf6550",
             "Value": {
                 "id": "42fb7081-19ac-4023-8d3f-da847cddc38f",
-                "resourcePath": "sprites\\spr_relic\\spr_relic.yy",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
             }
         },
