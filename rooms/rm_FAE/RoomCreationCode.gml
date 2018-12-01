@@ -1,1 +1,0 @@
-global.pixel_text = font_add("pixel.ttf",28,false,false,32,128);
